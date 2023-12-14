@@ -5,7 +5,7 @@ namespace Fibonacci
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Первые 6 чисел Фибоначчи:"+Fib(1) + " " + Fib(2) + " " + Fib(3) + " " + Fib(4) + " " + Fib(5) + " " + Fib(6)) ;
+           for (int i = 1; i <= 35; i++) Console.Write(Fib(i)+" ");
         }
         static int Fib(int n)
         {
