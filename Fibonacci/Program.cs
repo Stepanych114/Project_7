@@ -6,6 +6,7 @@ namespace Fibonacci
         static void Main(string[] args)
         {
            for (int i = 1; i <= 35; i++) Console.Write(Fib(i)+" ");
+            string s= "testfortrigger";
         }
         static int Fib(int n)
         {
